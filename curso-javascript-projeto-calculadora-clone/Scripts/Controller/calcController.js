@@ -1,7 +1,7 @@
 class calcController {
     
   constructor(){
-    this._displaycalcEl = document.querySelector("#display");
+    this._displayCalcEl = document.querySelector("#display");
     this._dateEl = document.querySelector('#data');
     this._timeEl = document.querySelector("#hora");
       this._currentDate;
@@ -10,7 +10,7 @@ class calcController {
 
   initialize(){
    this._displayCalcEl.innerHTML = "12345";
-   this._dataEl.innerHTML = "28/05/2020";
+   this._dateEl.innerHTML = "28/05/2020";
    this._timeEl.innerHTML = "00:16";
 
   }
